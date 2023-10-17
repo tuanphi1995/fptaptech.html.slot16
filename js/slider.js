@@ -40,7 +40,7 @@ $('.slider').each(function () {
         }, 4000);
     }
     $.each($slides, function (index) {
-        var $button = $('<button type="button" class="slide-btn">$bll;</button>');
+        var $button = $('<button type="button" class="slide-btn">&bull;</button>');
         if (index === currentIndex) {
             $button.addClass('active');
         }
